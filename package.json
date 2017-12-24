@@ -1,0 +1,19 @@
+{
+  "name": "planetMania",
+  "version": "1.0.0",
+  "description": "Planet Mania is for all info around the Sun, moon and Planets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "planet",
+    "mania"
+  ],
+  "author": "Valerian Pereira",
+  "private": true,
+  "license": "ISC",
+  "dependencies": {
+    "alexa-sdk": "^1.0.24"
+  }
+}
