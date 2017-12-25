@@ -9,7 +9,7 @@ var SKILL_NAME = "Planet Mania";
 var APP_ID = "";
 
 // Welcome Message
-var GREET = 'I can help you with some useful information about the planets' +
+var GREET = 'I can help you with some useful information about the planets. ' +
  'Here are some planets, SUN, MOON, MERCURY, VENUS, EARTH, MARS, JUPITER, SATURN, URANUS, NEPTUNE AND PLUTO';
 
 // Setup the env. Register the intents
