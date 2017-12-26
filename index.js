@@ -33,7 +33,7 @@ var handlers = {
     'GreetUser': function(){
         //Output
         var speechOutput = GREET;
-        this.emit(":tellWithCard", speechOutput, SKILL_NAME, GREET);
+        this.emit(":ask", speechOutput, GREET);
     },
     // Planet Info
     'GetPlanetInfoIntent': function(){
@@ -52,8 +52,10 @@ var handlers = {
             infoFound = info_box['default'];
         }
         
-        this.attributes.speechOutput = infoFound;
-        this.attributes.repromptSpeech = 'Hope the information was helpful !!!';
+        let commonConclude = '. Do you wish to get information of any other planet ?';
+        
+        this.attributes.speechOutput = infoFound + commonConclude;
+        this.attributes.repromptSpeech = 'Hope the information was useful ? Say Stop to Exit!';
         
         // Alright!!! Shoot the information you have
         this.response.speak(this.attributes.speechOutput).listen(this.attributes.repromptSpeech);
