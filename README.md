@@ -9,5 +9,8 @@ Built for the kids to help learn about the planets in our Solar system.
     GetPlanetInfoIntent give me information about {PLANETNAME}
     GetPlanetInfoIntent I wish to learn about the {PLANETNAME}
     GetPlanetInfoIntent tell me about {PLANETNAME}
+    GreetUserIntent give me the list of planets
+    GreetUserIntent what can I ask you about
+    
     
  Phase 2 of this skill will have more of Quiz around the solar system.
