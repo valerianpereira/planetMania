@@ -62,6 +62,15 @@ var handlers = {
         this.emit(':responseReady');
         
     },
+    // Yes. Repeat the greeting.
+    'AMAZON.YesIntent': function() {
+        this.emit('GreetUser');
+    },
+    // No means No
+    'AMAZON.NoIntent': function() {
+        this.response.speak('Ok, see you next time!');
+        this.emit(':responseReady');
+    },
     'AMAZON.HelpIntent': function(){
         // Help me!!!!
         var speechOutput = "You can say tell me about the sun or any other planet name or you can say stop instead.";
