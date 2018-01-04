@@ -15,4 +15,4 @@ Built for the kids to help learn about the planets in our Solar system.
 
 Phase 1 - Approved and published to Marketplace.
 
- Phase 2 of this skill will have more of Quiz around the solar system.
+Phase 2 of this skill will have more of Quiz around the solar system.
