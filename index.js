@@ -1,6 +1,6 @@
 "use strict";
 
-//Variables
+//Some Packages
 var Alexa = require('alexa-sdk');
 const info_box = require('./planetBox.js');
 
