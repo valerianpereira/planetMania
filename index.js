@@ -20,7 +20,7 @@ exports.handler = function(event, context, callback){
     alexa.execute();
 } 
 
-//Handling intents
+//Handling intents | Default pack
 var handlers = {
     // Default greet
     'LaunchRequest': function(){
