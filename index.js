@@ -8,7 +8,7 @@ const info_box = require('./planetBox.js');
 var SKILL_NAME = "Planet Mania";
 var APP_ID = "";
 
-// Welcome Message
+// Welcome Message | Default prompt
 var GREET = 'I can help you with some useful information about the planets. ' +
  'Here are some planets, SUN, MOON, MERCURY, VENUS, EARTH, MARS, JUPITER, SATURN, URANUS, NEPTUNE AND PLUTO';
 
