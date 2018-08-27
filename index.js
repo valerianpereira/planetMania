@@ -1,7 +1,6 @@
 "use strict";
 
 // Built using outdate node version
-
 //Some Packages
 var Alexa = require('alexa-sdk');
 const info_box = require('./planetBox.js');
@@ -32,8 +31,8 @@ var handlers = {
     'GreetUserIntent': function() {
         this.emit('GreetUser');
     },
+    //Output
     'GreetUser': function(){
-        //Output
         var speechOutput = GREET;
         this.emit(":ask", speechOutput, GREET);
     },
