@@ -1,5 +1,5 @@
 # planetMania
-Alexa Skill - Lamda - Node for Alexa Kids Challenge
+Alexa Skill - Lamda - NodeJS for Alexa Kids Challenge
 
 Built for the kids to help learn about the planets in our Solar system.
 
