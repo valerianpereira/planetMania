@@ -7,7 +7,6 @@ const info_box = require('./planetBox.js');
 
 // Skill Info
 var SKILL_NAME = "Planet Mania";
-var APP_ID = "";
 
 // Welcome Message | Default prompt
 var GREET = 'I can help you with some useful information about the planets. ' +
@@ -16,7 +15,7 @@ var GREET = 'I can help you with some useful information about the planets. ' +
 // Setup the env. Register the intents
 exports.handler = function(event, context, callback){
     var alexa = Alexa.handler(event, context);
-    alexa.APP_ID = APP_ID;
+    alexa.APP_ID = '';
     alexa.registerHandlers(handlers);
     alexa.execute();
 } 
