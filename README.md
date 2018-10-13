@@ -21,4 +21,4 @@ Phase 1 - Approved and published to Marketplace.
 
 Phase 2 of this skill will have more of Quiz around the solar system.
 
-Phase 3
+Phase 3 - Add the newly identified planets
