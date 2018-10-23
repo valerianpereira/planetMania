@@ -71,8 +71,8 @@ var handlers = {
         this.response.speak('Ok, see you next time!');
         this.emit(':responseReady');
     },
+    // Help me!!!!
     'AMAZON.HelpIntent': function(){
-        // Help me!!!!
         var speechOutput = "You can say tell me about the sun or any other planet name or you can say stop instead.";
         var reprompt = "What can I help you with ?";
         this.emit(":ask", speechOutput, reprompt);
