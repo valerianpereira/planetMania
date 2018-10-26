@@ -30,7 +30,7 @@ var handlers = {
     'GreetUserIntent': function() {
         this.emit('GreetUser');
     },
-    //Output
+    //Welcome Message for the user
     'GreetUser': function(){
         var speechOutput = GREET;
         this.emit(":ask", speechOutput, GREET);
