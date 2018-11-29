@@ -18,6 +18,6 @@ Demo Video : https://www.youtube.com/watch?v=Jf_Nd9kmUjk
 # Development Phases
 Phase 1 - Approved and published to Marketplace.
 
-Phase 2 of this skill will have more of Quiz around the solar system.
+Phase 2 - Skill will have more of Quiz around the solar system.
 
 Phase 3 - Add the newly identified planets
